@@ -1,0 +1,31 @@
+# Python cache and environment
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+.venv/
+env/
+venv/
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+
+# Docker
+*.dockerignore
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Pytest cache
+.pytest_cache/
+
+# MLflow / DVC
+mlruns/
+.dvc/
